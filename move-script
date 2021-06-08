@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+while :
+do
+
+  find ./source_dir -size +100G -name "*plot" -name "plot*" -exec mv -nv {} ./to/ \;
+  
+  sleep 1m
+
+done
