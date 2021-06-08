@@ -3,8 +3,8 @@
 while :
 do
 
-  find ./source_dir -size +100G -name "*plot" -name "plot*" -exec mv -nv {} ./to/ \;
+  find ./Chia2/Plots/. -size +4G -name "*plot" -name "plot*" -exec mv -nv {} ./run/user/1000/gvfs/dav:host=webdav.hidrive.ionos.com,ssl=true/public/ \;
   
-  sleep 1m
+  sleep 10s
 
 done
