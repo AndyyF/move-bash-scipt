@@ -3,7 +3,7 @@
 This is a Linux script in order to move a file:
 
 - which is in a certain directory
-- named "*plot" and "plot*"
+- named "\*plot" and "plot\*"
 - file-size above 101Gb
 
 
